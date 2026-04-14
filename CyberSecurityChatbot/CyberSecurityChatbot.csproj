@@ -8,8 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="bin\Debug\net8.0\Greeting.wav.m4a">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    <None Remove="Greeting.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+   
+    <Content Include="Greeting.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 
